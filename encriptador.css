@@ -237,7 +237,7 @@ p{
 
 /* TABLET  */
 /* Use a media query to add a break point at 800px: */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     body {
         position: relative;
         width: 768px;
@@ -376,7 +376,7 @@ p{
  
 /* CELULAR   */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 343px) {
     body {
         position: relative;
         width: 375px;
