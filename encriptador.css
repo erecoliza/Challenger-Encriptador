@@ -6,8 +6,8 @@ body{
     margin: 0px;
     padding: 0px;
     position: relative;
-    width: 1440px;
-    height: 1024px;   
+    /*width: 1440px;
+    height: 1024px;   */
     /* Light blue/light-blue-100 */ 
     background: #F3F5FC;
 }
@@ -235,6 +235,25 @@ p{
     background: #FFFFFF;
 }
 
+footer {    
+    top: 990px;
+    /* left: 230px; */
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color:white;
+    background-color: blue;
+    padding-bottom: 20px;     
+}
+
+
 /* TABLET  */
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 768px) {
@@ -371,12 +390,14 @@ p{
         left: 74px;
         top: 1244px;
     }
-
+    footer {    
+        top: 1350px;
+    }
 }
  
 /* CELULAR   */
 
-@media screen and (max-width: 343px) {
+@media screen and (max-width: 500px) {
     body {
         position: relative;
         width: 375px;
@@ -461,6 +482,10 @@ p{
         left: 48px;
         top: 1592px;
         padding-left: 0px;
+    }
+    footer {    
+        font-size: 14px;
+        top: 1700px;
     }
 
 }

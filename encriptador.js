@@ -117,3 +117,12 @@ entrada.onfocus = funcionBlanquear;
 entrada.focus();
 entrada.value="";
 entrada.focus();
+
+
+
+/* Otra forma de hacer el Replace */
+/*
+
+let textoCifrado = cadena.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
+
+*/
