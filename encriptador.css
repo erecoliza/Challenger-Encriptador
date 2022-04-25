@@ -258,9 +258,7 @@ footer {
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width: 768px) {
     body {
-        position: relative;
-        width: 768px;
-        height: 1384px; 
+        position: relative;                
         margin: 0px;
         padding: 0px;       
         
@@ -399,9 +397,7 @@ footer {
 
 @media screen and (max-width: 480px) {
     body {
-        position: relative;
-        width: 375px;
-        height: 1715px;
+        position: relative;                
         margin: 0px;
         padding: 0px;     
     }        
